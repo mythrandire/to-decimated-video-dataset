@@ -1,0 +1,9 @@
+name: "@mythrandire/to-decimated-video-dataset"
+type: plugin
+author: "Dwiref Oza"
+version: "0.1.2"
+description: "A plugin that creates a decimated video dataset."
+fiftyone:
+  version: ">=1.2.0"
+operators:
+  - decimate-video-samples
